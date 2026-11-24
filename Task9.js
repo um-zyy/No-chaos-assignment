@@ -7,7 +7,8 @@ while(trials > 0) {
 	if(number == Numbers){
 		console.log("Congrats you won!!!")
 		break;
-	}else{
+	}
+	else{
 	trials--
 	console.log("Wrong")
 	console.log("Number of attempts you have left are " + trials)
